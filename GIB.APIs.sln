@@ -5,11 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIB.OrdersAPI", "GB.OrdersAPI\GIB.OrdersAPI.csproj", "{76D3B3A5-BDD4-4728-B5F2-631B82F231AC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schemas", "Schemas", "{B206E5A0-C61F-4C62-8E68-9E406F1959E9}"
-	ProjectSection(SolutionItems) = preProject
-		Customer.xsd = Customer.xsd
-	EndProjectSection
-EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "GIB.CustomersAPI", "GB.CustomersAPI\GIB.CustomersAPI.deployproj", "{62502457-1ECC-458F-BAF6-084DE51BCD05}"
 EndProject
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "GIB.Products", "GIB.Products\GIB.Products.sfproj", "{D8A624DF-3FBC-4504-9957-7C1F3102F101}"

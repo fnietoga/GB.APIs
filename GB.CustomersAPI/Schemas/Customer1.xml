@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NewCustomer>
+  <Customer>
+    <CompanyName>Express Bank</CompanyName>
+    <ContactName>Guillermo Nigote</ContactName>
+    <ContactTitle>Gerente</ContactTitle>
+    <Email>guillermo.nigote@expressbank.com</Email>
+    <Phone>+34 912 777 666</Phone>
+    <Fax>+34 912 777 888</Fax>
+    <FullAddress>
+      <Address>Avda. de Logroño, 111</Address>
+      <City>Madrid</City>
+      <Region>Madrid</Region>
+      <PostalCode>28042</PostalCode>
+      <Country>Spain</Country>
+    </FullAddress>
+  </Customer>
+</NewCustomer>
