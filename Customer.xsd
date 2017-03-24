@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name='NewCustomer'>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name='Customer' type='CustomerType' minOccurs='0' maxOccurs='1' />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name='CustomerType'>
+    <xs:sequence>
+      <xs:element name='CompanyName' type='xs:string' minOccurs='1' />
+      <xs:element name='ContactName' type='xs:string'/>
+      <xs:element name='ContactTitle' type='xs:string'/>
+      <xs:element name='Email' type='xs:string'/>
+      <xs:element name='Phone' type='xs:string'/>
+      <xs:element name='Fax' type='xs:string'/>
+      <xs:element name='FullAddress' type='AddressType' minOccurs='1'  />
+    </xs:sequence> 
+  </xs:complexType>
+  <xs:complexType name='AddressType'>
+    <xs:sequence>
+      <xs:element name='Address' type='xs:string'/>
+      <xs:element name='City' type='xs:string'/>
+      <xs:element name='Region' type='xs:string'/>
+      <xs:element name='PostalCode' type='xs:string' />
+      <xs:element name='Country' type='xs:string'/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
